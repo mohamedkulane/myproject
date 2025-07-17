@@ -1553,521 +1553,360 @@ input::placeholder{
 
 }
 @media(min-width:391px) and (max-width:428px){
-        body{
-        overflow: hidden;
-    }
-    .navbar ul,button{
-        display: none;
-    }
-    .navbar img{
-        width: 80px;
-    }
-    .navbar h1{
-        font-size: 32px;
-    }
-    .navbar i{
-        display: block;
-        font-size: 26px;
-        margin-left: 14rem;
-    }
-    .navbar{
-        overflow: hidden;
-    }
-    .i{
-        display: none;
-    }
-    .hero{
-        display: block;
-        text-align: left;
-        margin-left: 4rem;
-        padding: 0px;
-        margin-top: 1em;
-        top: 100px;
-        left: -8px;
-        overflow: hidden;
-    }
-
-    .qoraal{
-        width: 520px;
-    }
-    .qoraal h1{
-        font-size: 28px;
-        margin-bottom: 2px;
-    }
-    .qoraal h2{
-        font-size: 24px;
-        margin-bottom: 1.4rem;
-    }
-    .qoraal hr{
-        width: 20%;
-        margin-left: 2rem;
-    }
-    .qoraal p{
-        width: 380px;
-        margin-bottom: 3px;
-        font-size: 18px;
-    }
-    .qoraal button{
-        margin-bottom: 2rem;
-        display: block;
-        margin-left: 7rem;
-    }
-    .hero img{
-        width: 300px;
-        height: 300px;
-        border-radius: 50%;
-        margin-left: 2rem;
-        margin-bottom: 4rem;
-    }
-    .why{
-        display: block;
-        margin-top: 4rem;
-    }
-    .why img{
-        margin-left: 3rem;
-        width: 400px;
-        height: 400px;
-    }
-    .saw3{
-        display: none;    }
-    .qoraal2{
-        width: 450px;
-        text-align: center;
-        margin-left: 4rem;
-        margin-top: 2rem;
-    }
-    .qoraal2 span{
-        margin-bottom: 3px;
-        margin-right: 6rem;
-        font-size: 20px;
-
-    }
-    .qoraal2 h1{
-        font-size: 36px;
-        margin-bottom: 2px;
-        width: 400px;
-    }
-    .qoraal2 p{
-        font-size: 20px;
-        width: 400px;
-        margin-bottom: 1rem;
-    }
-    .qoraal2 button{
-        display: block;
-        margin-left: 7rem;
-        margin-top: 1rem;
-        font-size: 24px;
-    }
-    .count{
-        margin-top: 6px;
-        margin-right: 0px;
-        gap: 6rem;
-        text-align: center;
-    }
-    .count h2{
-        font-size: 22px;
-    }
-    .why hr{
-        margin-left: 2rem;
-        width: 70%;
-    }
-    .saw2{
-        display: none;
-    }
-    .galrytext{
-        text-align: center;
-        margin-left: 2rem;
-    }
-    .galrytext h1{
-        font-size: 32px;
-        margin-left: 3rem;
-        width: 400px;
-    }
-    .galrytext p{
-        text-align: center;
-        font-size: 20px;
-    }
-    .galary{
-        display: block;
-        margin-left: 3rem;
-        justify-content: center;
-    }
-    .galary img{
-        width: 400px;
-        height: 320px;
-        border-radius: 30px;
-        padding: 1.2rem;
-    }
-    .btnpro{
-        text-align: center;
-        padding-bottom: 10em;
-        margin-left: 6rem;
-    }
-    .btnpro button{
-        display: block;
-        margin-left: 3rem;
-        font-size: 22px;
-    }
-    .btnpro img{
-        width: 350px;
-        margin-top: 0px;
-        margin-left: 0px;
-        border-top: 2px solid gray;
-
-    }
-    .projects{
-        display: block;
-        width: 450px;
-        height: 300px;
-        text-align: center;
-        position: static;
-        justify-content: flex-start;
-        margin-left: 3rem;
-        margin-top: -8em;
-  
-    }
-    .service{
-        text-align: center;
-        width: 500px;
-        margin-top: 3em;
-        margin-left: 5rem;
-    }
-    .service h1{
-        font-size: 36px;
-        width: 450px;
-    }
-    .service p{
-        text-align: center;
-        margin-right: 4rem;
-        font-size: 22px;
-    }
-    .main-box{
-        display: flex;
-        flex-direction: column;
-        margin-left: 3rem;
-        margin-top: 3.7em;
-        gap: 2rem;
-     
-    }
-    .main-box .boxes h1{
-        font-size: 34px;
-        font-family: 'poppins';
-    }
-    .main-box .boxes i{
-        font-size: 60px;
-    }
-    .boxes p{
-        font-size: 24px;
-    }
-    .boxes a{
-        font-size: 32px;
-    }
-    .boxes hr{
-        height: 60%;
-    }
-    .boxes{
-        width: 90%;
-        height: 250px;
-        border-radius: 30px;
-    }
-    .boxes:hover{
-        transform: scale(1.1);
-    }
-    .cabges{
-        justify-content: center;
-        margin-right: 0px;
-    }
-    .testi{
-        display: block;
-        margin-left: 4rem;
-    }
-    .testi .imoo img{
-        width: 450px;
-        height: 350px;
-        border: 2px solid gray;
-        border-radius: 40px;
-    }
-    .bax{
-        width: 450px;
-        height: 350px;
-        margin-top: 2rem;
-       
-
-    }
-    .bax p{
-        font-size: 20px;
-    }
-    .bax i{
-        font-size: 28px;
-    }
-    .bax:hover{
-        transform: scale(1);
-    }
-    .product{
-        display: block;
-        margin-top: 4em;
-        margin-left: 4rem;
-    }
-    .proqoral{
-        margin-left: 0px;
-        width: 400px;
-        text-align: center;
-    }
-    .proqoral h1{
-        font-size: 34px;
-    }
-    .product ul{
-        margin-left: 0px;
-        margin-bottom: 0px;
-        gap: 3rem;
-        margin-top: 1.2rem;
-    }
-    .product ul a{
-        font-size: 20px;
-
-    }
-    .fresh{
-        display: grid;
-        grid-template-columns: 500px;
-        margin-left:2rem;
-        column-gap: 0px;
-        row-gap: 2rem;
-    }
-    .freshbox button{
-        display: block;
-    }
-    .freshbox{
-        width: 480px;
-        height: 300px;
-        border-radius: 30px;
-        gap: 7px;
-        border: 2px solid lightgray;
-    }
-    .fresh h1{
-        font-size: 32px;
-    }
-    .fresh p{
-        font-size: 22px;
-    }
-    .fresh button{
-        font-size: 22px;
-        margin-top: 1rem;
-    }
-    .fresh img{
-        width: 300px;
-        height: 200px;
-        border-radius: 40px;
-    }
-    .fresh h2{
-        font-size: 24px;
-        margin-top: 1rem;
-    }
-    .contall{
-        padding-bottom: 20px;
-    }
-    .contact{
-        display: block;
-    }
-    .left-contact{
-        width: 600px;
-        text-align: center;
-        margin-left: 6rem;
-    }
-    .left-contact h1{
-        font-size: 34px;
-        width: 400px;
-    }
-    .left-contact p{
-        width: 400px;
-        font-size: 24px;
-    }
-    .left-box{
-        display: block;
-        text-align: center;
-    }
-    .contacbox{
-        width: 300px;
-        height: 250px;
-
-    }
-    .contacbox img{
-        width: 100px;
-        height: 100px;
-    }
-    .contacbox h1{
-        font-size: 32px;
-        width: 263px;
-    }
-    .contacbox{
-        margin-left: 2rem;
-        margin-top: 2em;
-    
-    }
-    .right{
-        margin-top: 3em;
-    }
-    .right h1{
-        text-align: center;
-    }
-    .right{
-        width: 450px;
-        height: 430px;
-        margin-left: 3.5rem;
-        padding-bottom: 8rem;
-      
-    }
-    .right-contact input {
-        width: 90%;
-        height: 35px;
-        border-radius: 12px;
-    }
-    .right button{
-        display: block;
-        margin-bottom: 3rem;
-    }
-    
-    .texarea textarea{
-        width: 90%;
-        height: 50px;
-    }
-    .like {
-        display: none;
-    }
-    .likes{
-        display: none;
-    }
-    .blog{
-        margin-top: 3rem;
-        margin-left: 6rem;
-        width: 500px;
-    }
-    .blog h1{
-        font-size: 31px;
-        width: 400px;
-    }
-    .blog p{
-        width: 350px;
-        font-size: 22px;
-    }
-    .blogpost{
-        display: block;
-        gap: 6em;
-        margin-left: 5rem;
-    }
-    .blogpost img{
-        width: 410px;
-        z-index: 2;
-
-    }
-    .blogbox2 h1{
-        font-size: 32px;
-    }
-    .blogbox2 p{
-        font-size: 20px;
-    }
-    .blogbox2{
-        position: static;
-        margin-bottom: 2rem;
-        width: 410px;
-        border-radius: 20px;
-    }
-    .second .blogbox4{
-        position: static;
-        margin-bottom: 2rem;
-        width: 410px;
-        border-radius: 20px;
-       
-    }
-    .second  .blogbox4 h1{
-        font-size: 32px;
-    }
-    .second .blogbox4 p{
-        font-size: 20px;
-    }
-    .third .blogbox6{
-        position: static;
-        width: 410px;
-        border-radius: 20px;
-    }
-    .third .blogbox6 h1{
-        font-size: 32px;
-    }
-    .third .blogbox6 p{
-        font-size: 20px;
-    }
-    .upperfooter{
-    position: static;
-      width: 90%;
-      height: 450px;
-        display: block;
-        margin-left: 1rem;
-        padding-top: 12px;
-        padding-bottom: 2rem;
-        margin-bottom: 7rem;
-    }
-    .footer .upperfooter img{
-        width: 240px;
-        height: 240px;
-        border-radius: 50%;
-        margin-left: 6rem;
-    }
-    .footer .fotqoraal{
-        width: 500px;
-        text-align: center;
-    }
-    .footer .fotqoraal h1{
-        font-size: 32px;
-        width: 400pxpx;
-    }
-    .footer .fotqoraal p{
-        font-size: 24px;
-        width: 410px;
-    }
-    .footer .inp input{
-        display: none;
-    }
-    .inp i{
-       
-        display: none;
-    }
-    .footerall{
-        display: block;
-        justify-content: start;
-        text-align: center;
-    }
-    .footer{
-        padding-top: 0px;
-        margin-top: 2rem;
-    }
-    .footer hr{
-        width: 100%;
-        margin-left: 0px;
-    }
-   .fothea{
-    display: flex;
-    justify-content: center;
-   }
-   .links{
-    text-align: center;
-    display: block;
-    gap: 5rem;
-   }
-   .copy{
-    display: flex;
-    justify-content: center;
-   }
-   .copy p{
-    font-size: 18px;
-   }
-   .copy .forri{
+       .header ul, button{
     display: none;
-   }
-   .ico{
+  }
+  .side-bar{
+    display: none;
+  }
+.navbar i{
+        display: block;
+        font-size: 28px;
+        margin-left: 9.8rem;
+    }
+  .hero{
+    height: 100vh;
     display: block;
-   }
-   .ico2{
+    padding-left: 0px;
+
+  }
+  .qoraal{
+    width: 440px;
+    text-align: center;
+  }
+  .qoraal h1{
+    font-size: 32px;
+    margin-bottom: 0px;
+    margin-right: 3rem;
+  }
+  .qoraal h2{
+    font-size: 28px;
+    margin-right: 3rem;
+
+  }
+  .qoraal hr{
+    width: 20%;
+    margin-left: 3em;
+    margin-top: 0.5rem;
+  }
+  .qoraal p{
+    width: 350px;
+    margin-top: 12px;
+    margin-left: 1rem;
+  }
+  .infor{
+    margin-left: 1.2rem;
+  }
+  .qoraal button{
     display: block;
-   }
+    margin-left: 8em;
+    margin-top: 14px;
+  }
+  .hero img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 4rem;
+    margin-left: 3rem;
+    transition: none;
+  }
+  .hero img:hover{
+    transform: none;
+  }
+  .saw2{
+    display: none;
+  }
+  .why{
+    display: block;
+  }
+  .why img{
+    margin-left: 2rem;
+  }
+  .qoraal2{
+    width: 400px;
+    margin-left: 0rem;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  .qoraal2 h1{
+    font-size: 32px;
+  }
+  .qoraal2 p{
+    width: 365px;
+    font-size: 14px;
+    margin-left: 1rem;
+}
+.qoraal2 button{
+    display: block;
+    margin-left: 9em;
+    margin-top: 1.3rem;
+}
+.why hr{
+    margin-left: 0rem;
+    width: 70%;
+    border: 2px solid yellow;
+    margin-left: 3.7em;
+}
+.count{
+    margin-right: 0px;
+    gap: 5rem;
+
+}
+.count h2{
+    margin-left: 0px;
+}
+.galrytext{
+    width: 300px;
+}
+.galrytext h1{
+    font-size: 32px;
+    margin-left: 1.2rem;
+    width: 350px;
+}
+.galrytext p{
+    margin-left: 8rem;
+    font-family: 'poppins';
+    font-weight: 500px;
+}
+.galary{
+    display: block;
+}
+.btnpro{
+    text-align: center;
+    margin-left: 4rem;
+    margin-top: -4rem;
+    
+}
+.btnpro button{
+    display: block;
+    margin-left: 3rem;
+    padding: 24px 30px;
+}
+.btnpro img{
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.projects{
+    display: block;
+    position: static;
+    animation: none;
+    text-align: center;
+    gap: 2em;
+    padding: 20px;
+    width: 280px;
+    height: 330px;
+    margin-top: 2.4rem;
+    margin-left: 2rem;
+}
+.service{
+    margin-left: 2rem;
+    width: 350px;
+}
+.service h1{
+    font-size: 32px;
+    margin-left: 0rem;
+
+}
+.main-box{
+    display: block;
+    margin-left: 2rem;
+}
+.boxes{
+    transition: none;
+    transform: none;
+    margin-bottom: 2rem;
+}
+.boxes:hover{
+    transform: none;
+}
+.cabges{
+    margin-right: 8rem;
+}
+.testi{
+    display: block;
+    margin-left: 2rem;
+}
+.testi img{
+    margin-bottom: 2rem;
+}
+.bax{
+    width: 300px;
+    transition: none;
+}
+.bax:hover{
+    transform: none;
+}
+.product{
+    display: block;
+}
+.proqoral{
+    margin-left: 0px;
+    width: 350px;
+    text-align: center;
+    margin-left: 1rem;
+}
+.proqoral h1{
+    font-size: 32px;
+}
+.product ul{
+    margin-left: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 0px;
+    gap: 2rem;
+}
+.fresh{
+    display: block;
+    margin-left: 3rem;
+
+}
+.fresh button{
+    display: block;
+    margin-top: 0.4rem;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.freshbox{
+    margin-bottom: 1rem;
+    width: 300px;
+}
+.freshbox h1,h2{
+    font-size: 20px;
+}
+.freshbox p{
+    font-size: 18px;
+}
+.contall{
+    padding-bottom: 20px;
+}
+.contact{
+    display: block;
+    margin-left: 1rem;
+}
+.left-contact{
+    width: 350px;
+    text-align: center;
+}
+.left-contact h1{
+    font-size: 32px;
+}
+.left-box{
+    margin-bottom: 3rem;
+    margin-left: 4rem;
+    display: block;
+}
+.contacbox{
+    width: 220px;
+    height: 200px;
+}
+.contacbox h1{
+    margin-top: 2rem;
+    font-size: 24px;
+}
+.like video{
+    display: none;
+}
+.likes i{
+    display: none;
+}
+.right {
+    width: 330px;
+    height: 550px;
+    text-align: center;
+    border-radius: 10px;
+}
+.texarea textarea{
+    width: 300px;
+    height: 60px;
+}
+.right-contact input{
+    padding: 18px;
+    margin-left: 0px;
+    width: 270px;
+}
+.texarea button{
+    display: block;
+}
+.blog{
+    width: 350px;
+    margin-left: 0px;
+    margin-left: 2em;
+    margin-top: 20rem;
+}
+.blogpost{
+    display: block;
+}
+.blogbox2{
+    position: static;
+    margin-bottom: 2rem;
+
+}
+.second .blogbox4{
+    position: static;
+    margin-bottom: 2rem;
+}
+.third .blogbox6{
+    position: static;
+    margin-bottom: 2rem;
+
+}
+.upperfooter{
+    position: static;
+    margin-left: 1rem;
+    margin-top: 0px;
+    margin-bottom: 4em;
+    display: block;
+    width: 320px;
+    height: 450px;
+}
+.footer .upperfooter img{
+    border-radius: 50%;
+    margin-left: 2rem;
+}
+.footer .fotqoraal{
+    width: 300px;
+    text-align: center;
+}
+.footer .fotqoraal h1{
+    font-size: 32px;
+}
+.inp i{
+    display: none;
+}
+.footer{
+    padding-top: 3rem;
+    margin-top: 4em;
+}
+.footerall{
+    display: block;
+    text-align: center;
+}
+.ico,.ico2{
+    display: block;
+}
+ .copy .forri{
+    display: none;
+}
+.links{
+    margin-top: 1rem;
+}
+.con{
+    margin-top: 1rem;
+}
+.servi{
+    margin-top: 1rem;
+}
+.fothea{
+    margin-left: 6em;
+}
+
+.footer hr{
+    margin-left: 0px;
+    width: 100%;
+    margin-bottom: 6px;
+}
+
+
+
 
 }
 @media(min-width:429px) and (max-width:834px){
