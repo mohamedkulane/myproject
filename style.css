@@ -1197,6 +1197,9 @@ input::placeholder{
     cursor: pointer;
 }
 @media (max-width:390px){
+    body{
+        overflow: hidden;
+    }
   .header ul, button{
     display: none;
   }
@@ -1553,125 +1556,121 @@ input::placeholder{
 
 }
 @media(min-width:391px) and (max-width:428px){
-       .header ul, button{
-    display: none;
-  }
-  .side-bar{
-    display: none;
-  }
-.navbar i{
-        display: block;
-        font-size: 28px;
-        margin-left: 9.8rem;
+    body{
+        overflow: hidden;
     }
-  .hero{
-    height: 100vh;
-    display: block;
-    padding-left: 0px;
+    .header ul,button{
+        display: none;
+    }
+    .navbar i{
+        display: block;
+        margin-left: 12rem;
+        font-size: 30px;
+        align-items: center;
+    }
+    .hero{
+        height: 100vh;
+        display: block;
+        padding-left: 0px;
+        text-align: center;
 
-  }
-  .qoraal{
-    width: 440px;
-    text-align: center;
-  }
-  .qoraal h1{
-    font-size: 32px;
-    margin-bottom: 0px;
-    margin-right: 3rem;
-  }
-  .qoraal h2{
-    font-size: 28px;
-    margin-right: 3rem;
+    }
+    .qoraal{
+        width: 400px;
 
-  }
-  .qoraal hr{
-    width: 20%;
-    margin-left: 3em;
-    margin-top: 0.5rem;
-  }
-  .qoraal p{
-    width: 350px;
-    margin-top: 12px;
-    margin-left: 1rem;
-  }
-  .infor{
-    margin-left: 1.2rem;
-  }
-  .qoraal button{
-    display: block;
-    margin-left: 8em;
-    margin-top: 14px;
-  }
-  .hero img{
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    margin-top: 4rem;
-    margin-left: 3rem;
-    transition: none;
-  }
-  .hero img:hover{
-    transform: none;
-  }
-  .saw2{
-    display: none;
-  }
-  .why{
-    display: block;
-  }
-  .why img{
-    margin-left: 2rem;
-  }
-  .qoraal2{
-    width: 400px;
-    margin-left: 0rem;
-    text-align: center;
-    margin-top: 2rem;
-  }
-  .qoraal2 h1{
-    font-size: 32px;
-  }
-  .qoraal2 p{
-    width: 365px;
-    font-size: 14px;
-    margin-left: 1rem;
-}
-.qoraal2 button{
-    display: block;
-    margin-left: 9em;
-    margin-top: 1.3rem;
-}
-.why hr{
-    margin-left: 0rem;
-    width: 70%;
-    border: 2px solid yellow;
-    margin-left: 3.7em;
-}
-.count{
-    margin-right: 0px;
-    gap: 5rem;
+    }
+    .qoraal h1{
+        font-size: 34px;
+    }
+    .qoraal h2{
+        font-size: 30px;
+    }
+    .qoraal hr{
+        width: 30%;
+        margin-top: 1rem;
+        margin-left: 6em;
+    }
+    .qoraal p{
+        width: 350px;
+        margin-left: 3rem;
+    }
+    .infor{
+        margin-left: 2rem;
+    }
+    .qoraal button{
+        display: block;
+        margin-left: 8em;
+        margin-top: 2rem;
+    }
+    .hero img{
+        border-radius: 50%;
+        margin-top: 2rem;
+    }
+    .hero img:hover{
+        transform: none;
+    }
+    .saw2  {
+        margin-top: 19em;
+        margin-right: -4em;
+    }
+    .saw2 img{
+        width:130px ;
+    }
+    .saw2:hover{
+        transform: none;
+        background: none;
+    }
+    .why{
+        display: block;
+    }
+    .qoraal2{
+        width: 400px;
+        text-align: center;
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+    .qoraal2 h1{
+        font-size: 34px;
+    }
+    .count{
+        margin-right: 0px;
+        gap: 6rem;
+    }
+    .count h2{
+        margin-left: 0px;
+    }
+    .why hr{
+        width: 80%;
+        margin-left: 3rem;
+        border: 2px solid yellow;
+    }
+    .why img{
+        margin-left: 3rem;
+    }
+    .qoraal2 button{
+        display: block;
+        margin-top: 2rem;
+        margin-left: 9em;
+    }
+    .galrytext{
+        text-align: center;
+        width: 350px;
+        margin-left: 3rem;
+    }
 
-}
-.count h2{
-    margin-left: 0px;
-}
-.galrytext{
-    width: 300px;
-}
-.galrytext h1{
-    font-size: 32px;
-    margin-left: 1.2rem;
-    width: 350px;
-}
-.galrytext p{
-    margin-left: 8rem;
-    font-family: 'poppins';
-    font-weight: 500px;
-}
-.galary{
-    display: block;
-}
-.btnpro{
+    .galrytext h1{
+        margin-left: 0px;
+        font-size: 34px;
+        width: 370px;
+    }
+    .galrytext p{
+        font-family: 'poppins';
+        margin-left: 2rem;
+    }
+    .galary{
+        display: block;
+    }
+    .btnpro{
     text-align: center;
     margin-left: 4rem;
     margin-top: -4rem;
@@ -1693,23 +1692,23 @@ input::placeholder{
     text-align: center;
     gap: 2em;
     padding: 20px;
-    width: 280px;
-    height: 330px;
-    margin-top: 2.4rem;
-    margin-left: 2rem;
+    width: 350px;
+    height: 300px;
+    margin-top: 2.2rem;
+    margin-left: 1.2rem;
 }
 .service{
     margin-left: 2rem;
     width: 350px;
 }
 .service h1{
-    font-size: 32px;
+    font-size: 34px;
     margin-left: 0rem;
 
 }
 .main-box{
     display: block;
-    margin-left: 2rem;
+    margin-left: 3.2rem;
 }
 .boxes{
     transition: none;
@@ -1726,12 +1725,11 @@ input::placeholder{
     display: block;
     margin-left: 2rem;
 }
-.testi img{
-    margin-bottom: 2rem;
-}
 .bax{
-    width: 300px;
+    width: 330px;
+    height: 300px;
     transition: none;
+    margin-top: 2rem;
 }
 .bax:hover{
     transform: none;
@@ -1743,10 +1741,10 @@ input::placeholder{
     margin-left: 0px;
     width: 350px;
     text-align: center;
-    margin-left: 1rem;
+    margin-left: 2rem;
 }
 .proqoral h1{
-    font-size: 32px;
+    font-size: 34px;
 }
 .product ul{
     margin-left: 2rem;
@@ -1761,33 +1759,39 @@ input::placeholder{
 }
 .fresh button{
     display: block;
-    margin-top: 0.4rem;
+    margin-top: 1.2rem;
     font-size: 18px;
     font-weight: bolder;
 }
 .freshbox{
     margin-bottom: 1rem;
-    width: 300px;
+    width: 340px;
+    height: 200px;
+    border-radius: 20px;
 }
 .freshbox h1,h2{
-    font-size: 20px;
+    font-size: 28px;
 }
 .freshbox p{
-    font-size: 18px;
+    font-size: 19px;
+}
+.freshbox img{
+    width: 65px;
+    border-radius: 18px;
 }
 .contall{
     padding-bottom: 20px;
 }
 .contact{
     display: block;
-    margin-left: 1rem;
+    margin-left: 2rem;
 }
 .left-contact{
-    width: 350px;
+    width: 360px;
     text-align: center;
 }
 .left-contact h1{
-    font-size: 32px;
+    font-size: 34px;
 }
 .left-box{
     margin-bottom: 3rem;
@@ -1809,31 +1813,35 @@ input::placeholder{
     display: none;
 }
 .right {
-    width: 330px;
-    height: 550px;
+    width: 360px;
+    height: 560px;
     text-align: center;
     border-radius: 10px;
 }
 .texarea textarea{
     width: 300px;
-    height: 60px;
+    height: 65px;
 }
 .right-contact input{
-    padding: 18px;
+    padding: 20px;
     margin-left: 0px;
-    width: 270px;
+    width: 285px;
+    border-radius: 20px;
 }
 .texarea button{
     display: block;
+    margin-top: -1rem;
 }
 .blog{
-    width: 350px;
+    width: 380px;
     margin-left: 0px;
     margin-left: 2em;
     margin-top: 20rem;
 }
 .blogpost{
     display: block;
+    margin-left: 3.5rem;
+    margin-top: 1rem;
 }
 .blogbox2{
     position: static;
@@ -1851,12 +1859,12 @@ input::placeholder{
 }
 .upperfooter{
     position: static;
-    margin-left: 1rem;
+    margin-left: 1.3rem;
     margin-top: 0px;
     margin-bottom: 4em;
     display: block;
-    width: 320px;
-    height: 450px;
+    width: 355px;
+    height: 475px;
 }
 .footer .upperfooter img{
     border-radius: 50%;
@@ -1867,7 +1875,7 @@ input::placeholder{
     text-align: center;
 }
 .footer .fotqoraal h1{
-    font-size: 32px;
+    font-size: 34px;
 }
 .inp i{
     display: none;
@@ -1910,6 +1918,9 @@ input::placeholder{
 
 }
 @media(min-width:429px) and (max-width:834px){
+    body{
+        overflow: hidden;
+    }
     .navbar ul,button{
         display: none;
     }
@@ -1927,7 +1938,7 @@ input::placeholder{
     .hero{
         display: flex;
         justify-content: start;
-        padding-left: 3rem;
+        padding-left: 1.5rem;
         height: 50vh;
     }
     .hero i{
@@ -1963,7 +1974,7 @@ input::placeholder{
         width: 300px;
         height: 300px;
         border-radius: 50%;
-        margin-right: 5rem;
+        margin-left: -12rem;
         margin-bottom: 4rem;
     }
     .why{
